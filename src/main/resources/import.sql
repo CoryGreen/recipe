@@ -1,0 +1,2 @@
+INSERT INTO RECIPEENTRIES (recipeID, nameOfRecipe, ownerOfRecipe, description) VALUES (1, 'Ratatouille', 'Pixar', 'Pixar magic, cuddly talking mice, it's delicious apparently');
+INSERT INTO RECIPEENTRIES (recipeID, nameOfRecipe, ownerOfRecipe, description) VALUES (2, 'Fried Plantain', 'Mom', 'Oversized bananas);

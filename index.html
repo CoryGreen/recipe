@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+
+<body>
+    <button onclick="getAllRecipes();">Get Recipes</button>
+    <br/>
+    <br/>
+    <input type="text" placeholder="id" id="getID" />
+    <button  onclick="getARecipe();">Get recipe by id</button>
+    <br/>
+    <br/>
+    <input type="text" placeholder="id" id="deleteID" />
+    <button onclick="deleteRecipe();">Delete recipe by id</button>
+    <br/>
+    <br/>
+    <input type="text" placeholder="name" id="name" />
+    <input type="text" placeholder="Recipe Owner" id="ownerOfRecipe" />
+    <button onclick="createRecipe();">Create recipe</button>
+    <br/>
+    <pre id="output">
+    </pre>
+</body>
+
+</html>
